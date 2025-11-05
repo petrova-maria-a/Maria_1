@@ -1,11 +1,11 @@
-Print('Введите сумму вклада - рубли')
+print('Введите сумму вклада - рубли')
 rub = int(input())
 print('ВВедите сумму вклада - копейки')
 kop = int(input())
 print('Введите процентную ставку')
-percent = float(input())
+perc = float(input())
 vklad = rub*100+kop
-itog = vklad+vklad\100*percent
+itog = vklad+(vklad/100)*perc
 rub = itog//100
 kop = itog%100
 print(rub, 'руб.', kop, 'коп.')
