@@ -1,0 +1,7 @@
+Print('Введите сумму вклада - рубли')
+rub = int(input())
+print('ВВедите сумму вклада - копейки')
+kop = int(input())
+print('Введите процентную ставку')
+percent = float(input())
+vklad = rub*
