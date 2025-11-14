@@ -1,8 +1,7 @@
 print('Введите первое число')
-num1 = input()
-num1 = int(num1)
+num1 = int(input())
 print('Введите второе число')
 num2 = input()
 num2 = int(num2)
-summa = num1 + num2
-print(summa)
+print(num1 + num2)
+
