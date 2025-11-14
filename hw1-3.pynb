@@ -1,0 +1,11 @@
+print('Введите трехзначное число (номер машины)')
+car = int(input())
+print('Введите однозначное или двухзначное число (количество людей)')
+people = int(input())
+for car/3=0
+    car = car**2
+else
+    car = car//5
+people = people*8\\6
+print(car)
+print(people)
