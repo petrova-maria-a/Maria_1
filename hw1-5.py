@@ -1,5 +1,4 @@
-print('Введите число секунд')
-sec = int(input())
+sec = int(input('Введите число секунд \n'))
 sec1 = sec % 60
 min = sec // 60
 hours = min // 60
