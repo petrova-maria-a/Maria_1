@@ -1,4 +1,3 @@
-print('Введите имя')
-name = input()
-print('Привет, ', name)
+name = input('Введите имя \n')
+print('Привет, ', name, '!')
 
