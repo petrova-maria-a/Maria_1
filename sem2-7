@@ -1,7 +1,12 @@
-n = int(input('Введите натуральное число \n'))
-i = 1
-fact = 1
-while i <= n:
-    fact = fact * i
-    i = i + 1
-print(fact)
+/* Определите среднее значение всех элементов последовательности, 
+завершающейся числом 0. Списками пользоваться нельзя. */
+
+n = float(input('Вводите числа \n'))
+
+sum = 0
+count = 0
+
+while x != 0:
+    sum = sum + n
+    count = count + 1
+print(sum / count)
