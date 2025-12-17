@@ -10,7 +10,6 @@ while True:
             max = num                     
     except ValueError:
         print("Ошибка! Введите целое число или 'стоп'.")
-    print(f'Самое большое число: {max}')
 if max is not None:
     print(f'Самое большое число: {max}')
 else:
